@@ -1,0 +1,96 @@
+body{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(135deg, #F4D2B4 , #DDDBDB );
+	padding: 10px;
+}
+.container{
+	max-width: 700px;
+	width: 100%;
+	background: #fff;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding: 25px 30px;
+	border-radius: 5px;
+}
+h3 {
+	font-family: 'Arial black';
+	margin-top: 40px;
+    margin-bottom: 40px;
+}
+h2 {
+	font-family: 'Arial black';
+	margin-top: 40px;
+    margin-bottom: 40px;
+}
+.instruction{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-bottom: 3px #C7CED0 solid;
+}
+.ingre{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 3px #C7CED0 solid;
+}
+.prep{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.prep1{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #FAF4F7;
+}
+.h{
+   margin-bottom: 20px;
+   color: #A96330;
+}
+.m{
+   margin-bottom: 20px;
+}
+.pre{
+    color: #A11F61;
+    margin-bottom: 10px;
+}
+.table{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    column-gap: 150px;
+    margin-left: 30px;
+    margin-right: 30px
+    margin-bottom: 10px;
+    border-bottom: 3px #C7CED0 solid
+}
+.li_bold{
+    font-weight:bold;
+}
+.ul_one li::marker{
+    color:#A96330;
+}
+.ul_two li::marker{
+    color: #A11F61;
+}
+.fat{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    column-gap: 150px;
+    margin-left: 30px;
+    margin-right: 30px
+    margin-bottom: 10px;
+    border-bottom:none;
+}
+.table p:nth-child(1){
+    width:120px;
+}
